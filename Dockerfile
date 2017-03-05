@@ -13,8 +13,5 @@ RUN \
    apt-get autoremove && \
    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 	
-# Restore base image's user
-USER webdriver
-
 # Define default command
 CMD ["bash"]
